@@ -769,7 +769,6 @@ GameObject:
   - component: {fileID: 1435777122}
   - component: {fileID: 1435777119}
   - component: {fileID: 1435777120}
-  - component: {fileID: 1435777121}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -903,70 +902,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mousePositionIndicator: {fileID: 1864048714}
---- !u!114 &1435777121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1435777115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 458f12d51ba34478c9a20cfbbd61be72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animations:
-  - Name: Idle
-    Sprites:
-    - {fileID: 8700285514777244835, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    Loop: 0
-    Interval:
-      TargetTime: 0
-      Running: 0
-      ReverseMode: 0
-  - Name: Land
-    Sprites:
-    - {fileID: 1130765598359201147, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    Loop: 0
-    Interval:
-      TargetTime: 0
-      Running: 0
-      ReverseMode: 0
-  - Name: Jump
-    Sprites:
-    - {fileID: 3353581883826214851, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    Loop: 0
-    Interval:
-      TargetTime: 0
-      Running: 0
-      ReverseMode: 0
-  - Name: Walk
-    Sprites:
-    - {fileID: -5225649721709881793, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    - {fileID: 3104523307421666713, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    - {fileID: -1900965869359951444, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    - {fileID: -3864696139431339434, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    - {fileID: 1011550338061184518, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    - {fileID: 6863337512732264956, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    - {fileID: 7168204209962484763, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    - {fileID: -9024815110292331241, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    - {fileID: -5092716807142620435, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    - {fileID: 1729991886243204814, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    - {fileID: 6619565068770028144, guid: 69dd78d8c27f3493f93018659d72940a, type: 3}
-    Loop: 1
-    Interval:
-      TargetTime: 0.1
-      Running: 0
-      ReverseMode: 0
-  - Name: Climb
-    Sprites:
-    - {fileID: 21300000, guid: 5d326dd30cee44b67809f6b71c563477, type: 3}
-    - {fileID: 21300000, guid: 2480305a378dc4577a224db1007b6340, type: 3}
-    Loop: 1
-    Interval:
-      TargetTime: 0.1
-      Running: 0
-      ReverseMode: 0
 --- !u!50 &1435777122
 Rigidbody2D:
   serializedVersion: 4
